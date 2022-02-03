@@ -19,6 +19,7 @@ const Profile = ({
       className={s.avatar}
     />
 
+    
     <p className={s.name}>{userName}</p>
     <p className={s.tag}>@{tag}</p>
     <p className={s.location}>{location}</p>
@@ -38,7 +39,8 @@ const Profile = ({
       <span className={s.quantity}>{stats.likes}</span>
     </li>
   </ul>
-</div>  );
+</div>  
+);
 };
 
     
