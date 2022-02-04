@@ -1,53 +1,47 @@
-.friendList{
-        width: 480px;
-    min-height: 200px;
-   
-    margin-left: auto;
-    margin-right: auto;
-    list-style: none;
-    padding-left: 0;
-   
-    color: #2e4053;
-}
-.item{
-   background-color: #e7ecf2;
-    padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #a8d3ff;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    box-shadow: 4px -2px 2px #c3c5c6;
-    cursor: pointer;
-    transition: background-color ease 250ms ;
-
+.friendList {
+  min-height: 200px;
+  list-style: none;
+  padding-left: 0;
+  color: #2e4053;
 }
 
-.item:hover{
- background-color: #f3f6f9;
+.item {
+  background-color: #e7ecf2;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #a8d3ff;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  box-shadow: 4px -2px 2px #c3c5c6;
+  cursor: pointer;
+  transition: background-color ease 250ms;
 }
 
-.status{
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-color: #ec5f56;
-    border-radius: 50%;
-    border: 1px solid #444;
-
-    
+.item:hover {
+  background-color: #f3f6f9;
 }
 
-.statusIsOnline{
-    composes: status;
-    background-color: #66ac5c;}
-
-.avatar{
-    margin: 0 15px;
+.status {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ec5f56;
+  border-radius: 50%;
+  border: 1px solid #444;
 }
-.name{
-    font-size: 20px;
-    font-weight: 700;
-    color: #2e4053;
-    margin: 0;
+
+.statusIsOnline {
+  composes: status;
+  background-color: #66ac5c;
+}
+
+.avatar {
+  margin: 0 15px;
+}
+.name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2e4053;
+  margin: 0;
 }
