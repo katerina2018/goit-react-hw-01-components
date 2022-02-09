@@ -1,6 +1,11 @@
 import PropTypes from 'prop-types';
 import s from './SectionWrapper.module.css';
 
+SectionWrapper.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.node,
+};
+
 export default function SectionWrapper({ title, children }) {
   return (
     <section className={s.sectionWrapper}>
@@ -9,8 +14,3 @@ export default function SectionWrapper({ title, children }) {
     </section>
   );
 }
-
-SectionWrapper.propTypes = {
-  title: PropTypes.string,
-  children: PropTypes.node,
-};
